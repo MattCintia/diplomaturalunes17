@@ -1,0 +1,35 @@
+p{
+    color: green; 
+    font-size: 20px;
+    line-height: 25px;
+}
+h1{
+    color: red;
+    background-color: yellow;
+}
+.destacados{
+    color: blue;
+    font-weight: bold;
+    font-style: italic; 
+}
+#azul{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+#rojo{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-left: 6px dashed black;
+    border-bottom: 6px dashed black;
+}
