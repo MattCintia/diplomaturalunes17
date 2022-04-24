@@ -1,0 +1,43 @@
+/* 
+font-family: 'Courgette', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+h2{
+    color: #9500ff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.caja{
+    width: 700px;
+    height: 270px;
+    margin: 50px;
+    background: #4900ff;
+    background: linear-gradient(38deg,#4900ff 0%, #9500ff 80%);
+    background: -webkit-linear-gradient(38deg,#4900ff 0%, #9500ff 80%);
+    background: -moz-linear-gradient(38deg,#4900ff 0%, #9500ff 80%);
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 0 40px 40px 40px;
+    /*eje X - eje Y - Desenfoque - Color*/
+    box-shadow: 10px -10px 20px black;
+    border: 2px solid white;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 3px dotted white;
+}
+.caja p{
+    margin: 0px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+}
+
+.grande{
+    color: #9500ff;
+    font-size: 80px;
+    font-style: normal;
+}
