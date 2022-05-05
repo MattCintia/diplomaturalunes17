@@ -1,0 +1,62 @@
+#contenedor{
+	border: 3px solid black;
+	background-color: white;
+	position: static;
+	margin:0 auto;
+	width: 80%;
+	height: 500px;
+    display: flex;
+    flex-direction:row-reverse;
+	}
+	
+
+#rojo{
+	position:static;
+	margin:auto;
+	height:40%;
+	width:40%;
+	border:1px solid red;
+	margin: bottom 0;
+    margin-right: 0%;
+	background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+
+#azul{
+	position:static;
+	margin: auto;
+    margin-right: 0%;
+	height:40%;
+	width:40%;
+	border:1px solid blue;
+	margin: bottom 0;
+	background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+
+#verde{
+	position:static;
+	margin: auto;
+    margin-right: 0%;
+	height:40%;
+	width:40%;
+	border:1px solid green;
+	margin: bottom 0;
+	background-color: green;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
