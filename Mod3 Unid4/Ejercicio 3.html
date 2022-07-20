@@ -42,9 +42,16 @@
             return alumno.nota >= 7;
         });
 
+        console.log(alumnos);
+
         console.log(aprobados);
 
         console.log(`${aprobados.length} aprobados`);
+
+        for(var i=0; i<aprobados.legth; i++){
+            document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota:${aprobados[i].nota}</p>`)
+        }
+        aprobados.forEach(a => document.write(`${a.nombre} (${a.nota}) <br>`))
     </script>
 </body>
 
