@@ -1,0 +1,23 @@
+<div class="div-container">
+<div class="form-contacto">
+
+  <form action="/admin/login" method="post">
+
+    <input type="text" name="usuario" placeholder="Nombre" />
+
+    <input type="password" name="password" placeholder="password" />
+    {{!             
+                <input type="text" name="asunto" placeholder="Asunto">
+           
+                <input type="text" name="mensaje" placeholder="Mensaje"> }}
+
+    <button type="submit">
+      Ingresar
+    </button>
+
+  </form>
+  {{#if error}}
+    <p>Usuario y/o clave incorrecto </p>
+  {{/if}}
+</div>
+</div>
